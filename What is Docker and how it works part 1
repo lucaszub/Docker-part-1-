@@ -1,0 +1,37 @@
+  306  docker image ls
+  307  docker --version
+  308  docker --version
+  309  docker pull <image-name>
+  310  clear
+  311  clear
+  312  docker run --detach --name nginx-container -p 80:80 nginx
+  313  docker run --detach --name mysql-container -p 3306:3306 -e MYSQL_ROOT_PASSWORD=secretpassword mysql
+  314  docker run --detach --name mysql-container -p 3306:3306 -e MYSQL_ROOT_PASSWORD=secretpassword mysql
+  315  docker run --detach --name mysql-container -p 3307:3306 -e MYSQL_ROOT_PASSWORD=secretpassword mysql
+  316  docker run --detach --name mysql-container -p 3307:3306 -e MYSQL_ROOT_PASSWORD=secretpassword mysql
+  317  docker stop mysql-container
+  318  docker stop mysql-container
+  319  docker rm mysql-container
+  320  doccker run --detach --name mysql-container -p 3307:3306 -e MYSQL_ROOT_PASSWORD=secretpassword mysql
+  321  docker run --detach --name mysql-container -p 3307:3306 -e MYSQL_ROOT_PASSWORD=secretpassword mysql
+  322  docker run --detach --name httpd-container -p 8080:80 httpd
+  323  docker run --detach --name httpd-container -p 8080:80 httpd
+  324  docker stop nginx-container
+  325  docker remnginx-container
+  326  docker rm nginx-container
+  327  clear
+  328  docker run --detach --name nginx-container -p 80:80 nginx
+  329  docker run --detach --name mysql-container -p 3307:3306 -e MYSQL_ROOT_PASSWORD=secretpassword mysql
+  330  docker stop mysql-container
+  331  docker rm mysql-container
+  332  docker run --detach --name mysql-container -p 3307:3306 -e MYSQL_ROOT_PASSWORD=secretpassword mysql
+  333  docker run --detach --name httpd-container -p 8080:80 httpd
+  334  docker stop httpd-container
+  335  docker stop httpd-container
+  336  docker rm httpd-container
+  337  docker run --detach --name httpd-container -p 8080:80 httpd
+  338  docker logs mysql-container
+  339  docker stop nginx-container
+  340  docker rm nginx-container
+  341  history
+  342  history
